@@ -13,3 +13,5 @@ Pure HTML5 maze: https://myechos.github.io/gravity-maze-demo/
 - Sensitivity and friction preferences are saved locally; level progress is not.
 
 A single index.html with no backend or external dependencies. HTTPS is required for mobile sensors.
+
+After total wall length reaches its cap at level 30, one wall becomes spiked. Every four more levels adds another spiked wall, up to all ten. Touching a red wall or its spikes fails the attempt and retries the same layout. Random stepped border notches are solid, nonlethal obstacles and participate in connectivity checks.
